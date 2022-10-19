@@ -6,8 +6,9 @@ def get_regatta_results_and_num_teams(regatta_link, regatta_type):
     results_table = ""
     try:
         results_table = pandas.read_html(regatta_link, header=0, index_col=0)
-    except:
+    except Exception as e:
         cprint(colored("REGATTA LINK IS BROKEN: " + regatta_link), 'red')
+        print(e)
         return
     teams = list(results_table[0].Team)
     result = list(results_table[0].School)
