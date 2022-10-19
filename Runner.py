@@ -3,7 +3,7 @@ import csv
 
 schoolslink = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR4d8JvuxteLJ7NqAvZhjYzRggjV_ptKUQCNNsQAVrblK9r2h3CFovSODtSpg7Jp7_xt0lFdLjxUedQ/pub?output=csv"
 coedRegattaLink = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSwVtHxq6LONV5TiX73WF1xaCDk93xnsFz7Vh6VisLJFJIg6MpvsVNDCoOe-XcBc6h1cu1SC6_HYPVM/pub?output=csv"
-womensRegattaLink = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRrN9Sdev0TpLnAzuUgPQFwEa_VXcmsXX9CKoR3Y5p4fFydyh8WwdM1Xx-yaOWobLlNYPYWUMjGql1w/pub?output=csv"
+womensRegattaLink = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSbC1UdmFzka45EBIRpOiUbWzkhsOlh7kJVdHlacTMYcHiZ0BticzOIA-i57PWyuDkNAk-M0u5g8IXK/pub?output=csv"
 
 coed_rankings_output_file = "rankings.csv"
 coed_component_scores_file = "component_scores.csv"
