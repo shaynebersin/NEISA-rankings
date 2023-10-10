@@ -38,8 +38,10 @@ def calculate_rank(type, total_teams, score):
         first = 10.0
     elif type == "WA":
         first = 8.5
-    elif type == "WB" or type == "A-":
+    elif type == "WB":
         first = 7.0
+    elif type == "A-":
+        first = 6.25
     elif type == "SC":
         first = 10.0
         last = 5.0
